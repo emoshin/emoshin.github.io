@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="toolbar no-print">
+    <button onclick="window.print()" class="btn-print">🖨️ Save as PDF / Print</button>
+  </div>
+
+  <main class="cv-container">
+    {% assign cv = site.data.cv %}
+
+    <header class="cv-header">
+      <div>
+        <h1>{{ cv.name }}</h1>
+        <p class="role">{{ cv.role }}</p>
+      </div>
+      <ul class="contact-list">
+        <li>📍 {{ cv.location }}</li>
+        <li>✉️ <a href="mailto:{{ cv.email }}">{{ cv.email }}</a></li>
+        <li>💻 <a href="{{ cv.github }}" target="_blank" rel="noopener">{{ cv.github | remove: "https://" }}</a></li>
+        <li>🔗 <a href="{{ cv.linkedin }}" target="_blank" rel="noopener">{{ cv.linkedin | remove: "https://" }}</a></li>
+      </ul>
+    </header>
+
+    <section class="cv-section">
+      <h2>Professional Summary</h2>
+      <p class="summary">{{ cv.summary }}</p>
+    </section>
+
+    <section class="cv-section">
+      <h2>Core Technical Skills</h2>
+      <div class="skills-grid">
+        {% for group in cv.skills %}
+        <div class="skill-group">
+          <h3>{{ group.category }}</h3>
+          <div class="tags">
+            {% for item in group.items %}
+              <span class="tag">{{ item }}</span>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Professional Experience</h2>
+      {% for job in cv.experience %}
+      <article class="job">
+        <div class="job-header">
+          <div>
+            <h3>{{ job.role }} <span class="company">@ {{ job.company }}</span></h3>
+            <p class="domain">{{ job.domain }}</p>
+          </div>
+          <div class="job-meta">
+            <span class="period">{{ job.period }} ({{ job.duration }})</span>
+            <span class="location">{{ job.location }}</span>
+          </div>
+        </div>
+        <ul class="highlights">
+          {% for point in job.highlights %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+      {% endfor %}
+    </section>
+
+    <div class="two-col">
+      <section class="cv-section">
+        <h2>Education</h2>
+        {% for edu in cv.education %}
+        <div class="edu-item">
+          <h3>{{ edu.degree }}</h3>
+          <p>{{ edu.institution }} • <span class="period">{{ edu.period }}</span></p>
+        </div>
+        {% endfor %}
+      </section>
+
+      <section class="cv-section">
+        <h2>Languages</h2>
+        <ul class="lang-list">
+          {% for lang in cv.languages %}
+            <li><strong>{{ lang.name }}:</strong> {{ lang.level }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="cv-section">
+        <h2>Certifications</h2>
+        <ul class="lang-list">
+          {% for certification in cv.certifications %}
+            <li><strong>{{ certification.name }}</strong> — {{ certification.issuer }}, Certificate No. {{ certification.certificate }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

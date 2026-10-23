@@ -1,0 +1,66 @@
+name: "Evgeny Moshin"
+role: "Senior Test Automation Engineer | SDET"
+location: "Warsaw / EU"
+github: "https://github.com/emoshin"
+linkedin: "https://www.linkedin.com/in/evgeny-moshin/"
+website: "https://emoshin.github.io"
+
+summary: >
+  Senior Test Automation Engineer and ISTQB-certified QA professional with 12+ years of experience across FinTech / Banking and Intellectual Property domains. Experienced in API, database, performance, end-to-end, contract, and visual regression testing, test optimization, pipeline configuration, mentoring, and team leadership. Deep expertise in Java, REST Assured, OpenFeign, Selenium WebDriver, Serenity BDD, Playwright, and BackstopJS.
+
+skills:
+  - category: "UI & BDD Test Automation"
+    items: ["Selenium WebDriver", "Serenity BDD", "Playwright", "Cucumber (Gherkin)", "Screenplay Pattern", "Page Object Model (POM)", "JUnit 5", "TestNG"]
+  - category: "API & Integration Testing"
+    items: ["REST Assured", "OpenFeign", "Postman", "OpenAPI / Swagger", "WireMock", "Contract Testing (Pact)", "JSON / XML Schema Validation"]
+  - category: "Database & Performance Testing"
+    items: ["Database Testing", "SQL", "Performance Testing", "Test Execution Optimization"]
+  - category: "Visual Regression Testing"
+    items: ["BackstopJS", "Playwright Visual Comparisons", "Cross-Browser & Responsive Viewport Testing"]
+  - category: "Languages & CI/CD"
+    items: ["Java (8/11/17)", "TypeScript / JavaScript", "Maven", "Jenkins", "GitHub Actions", "Docker", "Git"]
+  - category: "Domains"
+    items: ["FinTech & Core Banking (Nykredit)", "Patent Management & IP Lifecycle Systems (EPO)"]
+
+experience:
+  - company: "BEC Financial Technologies (Nykredit)"
+    location: "Poland/Hybrid"
+    role: "Senior Test Automation Engineer"
+    period: "06.2026– Present"
+    domain: "FinTech / Core Banking & Mortgage Platforms"
+    highlights:
+      - "Perform API testing of core banking and mortgage services to validate endpoints, business rules, and service integrations."
+      - "Carry out database testing, including validation of persisted data and data integrity."
+      - "Conduct performance testing to assess the responsiveness and behavior of banking services under load."
+      - "Analyze long-running tests and provide optimizations to reduce execution time and improve test feedback cycles."
+
+  - company: "European Patent Office (EPO)"
+    location: "Warsaw/Hybrid"
+    role: "Senior Test Automation Engineer"
+    period: "2015 – 2026"
+    domain: "Patent Management Systems & Intellectual Property Lifecycle"
+    highlights:
+      - "Performed end-to-end testing with Selenium, Serenity BDD, REST Assured, and OpenFeign across patent management workflows."
+      - "Conducted API testing with REST Assured and OpenFeign, including contract validations."
+      - "Carried out visual regression testing using Playwright and BackstopJS."
+      - "Configured CI/CD pipelines using GitHub Actions to support automated testing."
+      - "Mentored team members and took responsibility for Team Lead duties."
+      - "Reviewed and signed off releases."
+
+certifications:
+  - name: "ISTQB Certified Tester"
+    issuer: "ISTQB"
+    certificate: "65837"
+
+education:
+  - degree: "M.Sc. / B.Sc. in Computer Science or Software Engineering"
+    institution: "Minsk Institute of Management"
+    period: "2007 – 2012"
+
+languages:
+  - name: "English"
+    level: "Full Professional Proficiency"
+  - name: "Russian"
+    level: "Native"
+  - name: "Polish"
+    level: "Intermediate"

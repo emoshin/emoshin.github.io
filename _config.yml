@@ -1,0 +1,11 @@
+title: "Evgeny Moshin | Senior Test Automation Engineer"
+description: "Senior Test Automation Engineer with 12+ years of experience in Patent Management Systems (EPO) and FinTech (Nykredit)."
+url: "https://emoshin.github.io"
+baseurl: ""
+markdown: kramdown
+theme: null
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
