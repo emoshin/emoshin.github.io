@@ -22,7 +22,6 @@
       </div>
       <ul class="contact-list">
         <li>📍 {{ cv.location }}</li>
-        <li>✉️ <a href="mailto:{{ cv.email }}">{{ cv.email }}</a></li>
         <li>💻 <a href="{{ cv.github }}" target="_blank" rel="noopener">{{ cv.github | remove: "https://" }}</a></li>
         <li>🔗 <a href="{{ cv.linkedin }}" target="_blank" rel="noopener">{{ cv.linkedin | remove: "https://" }}</a></li>
       </ul>
@@ -59,7 +58,7 @@
             <p class="domain">{{ job.domain }}</p>
           </div>
           <div class="job-meta">
-            <span class="period">{{ job.period }} ({{ job.duration }})</span>
+            <span class="period">{{ job.period }}</span>
             <span class="location">{{ job.location }}</span>
           </div>
         </div>

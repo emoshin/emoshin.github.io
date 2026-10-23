@@ -1,6 +1,6 @@
 name: "Evgeny Moshin"
 role: "Senior Test Automation Engineer | SDET"
-location: "Warsaw / EU"
+location: "Warsaw/EU"
 github: "https://github.com/emoshin"
 linkedin: "https://www.linkedin.com/in/evgeny-moshin/"
 website: "https://emoshin.github.io"
@@ -10,26 +10,29 @@ summary: >
 
 skills:
   - category: "UI & BDD Test Automation"
-    items: ["Selenium WebDriver", "Serenity BDD", "Playwright", "Cucumber (Gherkin)", "Screenplay Pattern", "Page Object Model (POM)", "JUnit 5", "TestNG"]
+    items: ["Selenium WebDriver", "Serenity BDD", "Playwright", "Cucumber (Gherkin)", "Screenplay Pattern", "Page Object Model (POM)", "JUnit 5", "TestNG", "Allure Report"]
   - category: "API & Integration Testing"
     items: ["REST Assured", "OpenFeign", "Postman", "OpenAPI / Swagger", "WireMock", "Contract Testing (Pact)", "JSON / XML Schema Validation"]
   - category: "Database & Performance Testing"
-    items: ["Database Testing", "SQL", "Performance Testing", "Test Execution Optimization"]
+    items: ["Database Testing", "SQL", "MySQL", "Performance Testing", "Test Execution Optimization"]
   - category: "Visual Regression Testing"
     items: ["BackstopJS", "Playwright Visual Comparisons", "Cross-Browser & Responsive Viewport Testing"]
+  - category: "AI & Agentic Workflows"
+    items: ["AI-Assisted Test Generation", "Model Context Protocol (MCP)", "Custom AI Skills Creation", "Agentic Test Framework Auditing"]
   - category: "Languages & CI/CD"
-    items: ["Java (8/11/17)", "TypeScript / JavaScript", "Maven", "Jenkins", "GitHub Actions", "Docker", "Git"]
+    items: ["Java (8/11/17)", "TypeScript / JavaScript", "PHP", "Maven", "Jenkins", "GitHub Actions", "Docker", "Git"]
   - category: "Domains"
-    items: ["FinTech & Core Banking (Nykredit)", "Patent Management & IP Lifecycle Systems (EPO)"]
+    items: ["FinTech & Core Banking (Nykredit)", "Patent Management & IP Lifecycle Systems (EPO)", "E-Procurement & Government Tendering (NCMPS)"]
 
 experience:
   - company: "BEC Financial Technologies (Nykredit)"
-    location: "Poland/Hybrid"
+    location: "Warsaw/Hybrid"
     role: "Senior Test Automation Engineer"
     period: "06.2026– Present"
     domain: "FinTech / Core Banking & Mortgage Platforms"
     highlights:
       - "Perform API testing of core banking and mortgage services to validate endpoints, business rules, and service integrations."
+      - "Leverage AI agents to implement new automated API tests, develop custom reusable AI skills, and orchestrate multi-server Model Context Protocol (MCP) workflows to audit the test framework and generate comprehensive overviews of components to update or remove."
       - "Carry out database testing, including validation of persisted data and data integrity."
       - "Conduct performance testing to assess the responsiveness and behavior of banking services under load."
       - "Analyze long-running tests and provide optimizations to reduce execution time and improve test feedback cycles."
@@ -47,13 +50,23 @@ experience:
       - "Mentored team members and took responsibility for Team Lead duties."
       - "Reviewed and signed off releases."
 
+  - company: "National Centre for Marketing and Price Study (NCMPS)"
+    location: "Minsk"
+    role: "PHP Developer"
+    period: "2012 – 2015"
+    domain: "Government Procurement & Electronic Tendering Systems"
+    highlights:
+      - "Implemented and maintained an electronic system for government procurement and public tenders (bargains) using PHP 5 and MySQL."
+      - "Integrated the Avest cryptographic certificate platform for digital signatures and secure authentication."
+      - "Developed automated end-to-end tests using Java and Selenium WebDriver, with Allure for test reporting."
+
 certifications:
   - name: "ISTQB Certified Tester"
     issuer: "ISTQB"
     certificate: "65837"
 
 education:
-  - degree: "M.Sc. / B.Sc. in Computer Science or Software Engineering"
+  - degree: "B.Sc. in Computer Science"
     institution: "Minsk Institute of Management"
     period: "2007 – 2012"
 
