@@ -10,17 +10,19 @@ summary: >
 
 skills:
   - category: "UI & BDD Test Automation"
-    items: ["Selenium WebDriver", "Serenity BDD", "Playwright", "Cucumber (Gherkin)", "Screenplay Pattern", "Page Object Model (POM)", "JUnit 5", "TestNG", "Allure Report"]
+    items: ["Selenium WebDriver", "Serenity BDD", "Playwright", "Jest", "MFE Testing", "IBM Rational Functional Tester (RFT)", "Cucumber (Gherkin)", "Screenplay Pattern", "Page Object Model (POM)", "JUnit 5", "TestNG", "Allure Report", "HP ALM"]
   - category: "API & Integration Testing"
-    items: ["REST Assured", "OpenFeign", "Postman", "OpenAPI / Swagger", "WireMock", "Contract Testing (Pact)", "JSON / XML Schema Validation"]
+    items: ["REST Assured", "OpenFeign", "Apache Kafka", "Postman", "OpenAPI / Swagger", "WireMock", "Contract Testing (Pact)", "JSON / XML Schema Validation"]
   - category: "Database & Performance Testing"
-    items: ["Database Testing", "SQL", "MySQL", "Performance Testing", "Test Execution Optimization"]
+    items: ["Database Testing", "SQL", "MySQL", "MongoDB", "Performance Testing", "Test Execution Optimization"]
   - category: "Visual Regression Testing"
     items: ["BackstopJS", "Playwright Visual Comparisons", "Cross-Browser & Responsive Viewport Testing"]
   - category: "AI & Agentic Workflows"
     items: ["AI-Assisted Test Generation", "Model Context Protocol (MCP)", "Custom AI Skills Creation", "Agentic Test Framework Auditing"]
   - category: "Languages & CI/CD"
-    items: ["Java (8/11/17)", "TypeScript / JavaScript", "PHP", "Maven", "Jenkins", "GitHub Actions", "Docker", "Git"]
+    items: ["Java (8/11/17)", "TypeScript / JavaScript", "PHP", "Webpack", "Maven", "Jenkins", "GitHub Actions", "Docker", "Git"]
+  - category: "Leadership & QA Management"
+    items: ["Team Leadership", "Mentoring", "Release Sign-Off", "Test Workload Planning"]
   - category: "Domains"
     items: ["FinTech & Core Banking (Nykredit)", "Patent Management & IP Lifecycle Systems (EPO)", "E-Procurement & Government Tendering (NCMPS)"]
 
@@ -44,11 +46,14 @@ experience:
     domain: "Patent Management Systems & Intellectual Property Lifecycle"
     highlights:
       - "Performed end-to-end testing with Selenium, Serenity BDD, REST Assured, and OpenFeign across patent management workflows."
+      - "Implemented and executed microfrontend testing using Webpack, Playwright (TypeScript), and Jest."
+      - "Automated desktop UI testing using IBM Rational Functional Tester (RFT) with custom integration into HP ALM."
       - "Conducted API testing with REST Assured and OpenFeign, including contract validations."
+      - "Performed asynchronous message-driven testing with Apache Kafka and NoSQL data validation in MongoDB."
       - "Carried out visual regression testing using Playwright and BackstopJS."
       - "Configured CI/CD pipelines using GitHub Actions to support automated testing."
-      - "Mentored team members and took responsibility for Team Lead duties."
-      - "Reviewed and signed off releases."
+      - "Led a team of 4 test automation engineers and mentored team members."
+      - "Reviewed and signed off releases, managing workload planning for testing activities per release."
 
   - company: "National Centre for Marketing and Price Study (NCMPS)"
     location: "Minsk"
